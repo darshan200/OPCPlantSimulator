@@ -1,0 +1,128 @@
+{
+  "plant1": {
+    "device1": {
+      "pH": {
+        "default": 12,
+        "simulate": false,
+        "isSimulated": true,
+        "isUpdatable": true
+      },
+      "Humidity": {
+        "default": 1,
+        "simulate": false,
+        "isSimulated": true,
+        "isUpdatable": true
+      },
+      "Temprature": {
+        "default": 10,
+        "simulate": false,
+        "isSimulated": false,
+        "isUpdatable": false
+      }
+    },
+    "device2": {
+      "pH": {
+        "default": 12,
+        "simulate": false,
+        "isSimulated": true,
+        "isUpdatable": true
+      },
+      "Humidity": {
+        "default": 1,
+        "simulate": false,
+        "isSimulated": true,
+        "isUpdatable": true
+      },
+      "Temprature": {
+        "default": 10,
+        "simulate": false,
+        "isSimulated": false,
+        "isUpdatable": false
+      }
+    },
+    "device3": {
+      "pH": {
+        "default": 12,
+        "simulate": false,
+        "isSimulated": true,
+        "isUpdatable": true
+      },
+      "Humidity": {
+        "default": 1,
+        "simulate": false,
+        "isSimulated": true,
+        "isUpdatable": true
+      },
+      "Temprature": {
+        "default": 10,
+        "simulate": false,
+        "isSimulated": false,
+        "isUpdatable": false
+      }
+    },
+    "freq": 20
+  },
+  "plant2": {
+    "device1": {
+      "pH": {
+        "default": 12,
+        "simulate": false,
+        "isSimulated": true,
+        "isUpdatable": true
+      },
+      "Humidity": {
+        "default": 1,
+        "simulate": false,
+        "isSimulated": true,
+        "isUpdatable": true
+      },
+      "Temprature": {
+        "default": 10,
+        "simulate": false,
+        "isSimulated": false,
+        "isUpdatable": false
+      }
+    },
+    "device2": {
+      "pH": {
+        "default": 12,
+        "simulate": false,
+        "isSimulated": true,
+        "isUpdatable": true
+      },
+      "Humidity": {
+        "default": 1,
+        "simulate": false,
+        "isSimulated": true,
+        "isUpdatable": true
+      },
+      "Temprature": {
+        "default": 10,
+        "simulate": false,
+        "isSimulated": false,
+        "isUpdatable": false
+      }
+    },
+    "device3": {
+      "pH": {
+        "default": 12,
+        "simulate": false,
+        "isSimulated": true,
+        "isUpdatable": true
+      },
+      "Humidity": {
+        "default": 1,
+        "simulate": false,
+        "isSimulated": true,
+        "isUpdatable": true
+      },
+      "Temprature": {
+        "default": 10,
+        "simulate": false,
+        "isSimulated": false,
+        "isUpdatable": false
+      }
+    },
+    "freq": 30
+  }
+}

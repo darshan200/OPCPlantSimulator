@@ -1,0 +1,543 @@
+{
+    "Plant": {
+        "name" : "OPC_Plant_1",
+        "device_count": 4,
+        "devices": [
+            "Bioreactor_1",
+            "Bioreactor_2",
+            "Bioreactor_3",
+            "Bioreactor_4"
+        ],
+        "frequency" : 10,
+        "device_data": {
+            "Bioreactor_1": {
+                "pH": {
+                    "minvalue": 6.4,
+                    "maxvalue": 7.2,
+                    "defaultvalue": 7.0,
+                    "currentvalue": 7.0,
+                    "IsSimulated": true,
+                    "IsEditable" : true,
+                    "units": "",
+                    "datatype": "float"
+                },
+                "DO": {
+                    "minvalue": 30,
+                    "maxvalue": 60,
+                    "defaultvalue": 45,
+                    "currentvalue": 45,
+                    "IsSimulated": true,
+					"IsEditable" : true,
+                    "units": "%",
+                    "datatype": "int"
+                },
+                "Temperature": {
+                    "minvalue": 36.5,
+                    "maxvalue": 37.5,
+                    "defaultvalue": 37.0,
+                    "currentvalue": 37.0,
+                    "IsSimulated": true,
+					"IsEditable" : true,
+                    "units": "deg C",
+                    "datatype": "float"
+                },
+                "AgitationSpeed": {
+                    "minvalue": 100,
+                    "maxvalue": 300,
+                    "defaultvalue": 150,
+                    "currentvalue": 150,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "RPM",
+                    "datatype": "int"
+                },
+                "CellDensity": {
+                    "minvalue": 1,
+                    "maxvalue": 10,
+                    "defaultvalue": 4,
+                    "currentvalue": 4,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "millioncells/mL",
+                    "datatype": "int"
+                },
+                "Viability": {
+                    "minvalue": 90,
+                    "maxvalue": 100,
+                    "defaultvalue": 95,
+                    "currentvalue": 95,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "%",
+                    "datatype": "int"
+                },
+                "NutrientConcentration": {
+                    "minvalue": 1,
+                    "maxvalue": 10,
+                    "defaultvalue": 2,
+                    "currentvalue": 2,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "g/L",
+                    "datatype": "int"
+                },
+                "MetaboliteConcentration": {
+                    "minvalue": 1,
+                    "maxvalue": 5,
+                    "defaultvalue": 2,
+                    "currentvalue": 2,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "g/L",
+                    "datatype": "int"
+                },
+                "FoamControl": {
+                    "minvalue": 0,
+                    "maxvalue": 1,
+                    "defaultvalue": 0,
+                    "currentvalue": 0,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "",
+                    "datatype": "int"
+                },
+                "Pressure": {
+                    "minvalue": 1,
+                    "maxvalue": 1,
+                    "defaultvalue": 1,
+                    "currentvalue": 1,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "bar",
+                    "datatype": "int"
+                },
+                "Conductivity": {
+                    "minvalue": 1,
+                    "maxvalue": 10,
+                    "defaultvalue": 3,
+                    "currentvalue": 3,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "mS/cm",
+                    "datatype": "int"
+                },
+                "Humidity": {
+                    "minvalue": 20,
+                    "maxvalue": 80,
+                    "defaultvalue": 40,
+                    "currentvalue": 40,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "%",
+                    "datatype": "int"
+                },
+                "Flowrate": {
+                    "minvalue": 0.5,
+                    "maxvalue": 5,
+                    "defaultvalue": 2.0,
+                    "currentvalue": 2.0,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "L/min",
+                    "datatype": "float"
+                }
+            },
+            "Bioreactor_2": {
+                "pH": {
+                    "minvalue": 6.4,
+                    "maxvalue": 7.2,
+                    "defaultvalue": 7.0,
+                    "currentvalue": 7.0,
+                    "IsSimulated": true,
+					"IsEditable" : true,
+                    "units": "",
+                    "datatype": "float"
+                },
+                "DO": {
+                    "minvalue": 30,
+                    "maxvalue": 60,
+                    "defaultvalue": 45,
+                    "currentvalue": 45,
+                    "IsSimulated": true,
+					"IsEditable" : true,
+                    "units": "%",
+                    "datatype": "int"
+                },
+                "Temperature": {
+                    "minvalue": 36.5,
+                    "maxvalue": 37.5,
+                    "defaultvalue": 37.0,
+                    "currentvalue": 37.0,
+                    "IsSimulated": true,
+					"IsEditable" : true,
+                    "units": "deg C",
+                    "datatype": "float"
+                },
+                "AgitationSpeed": {
+                    "minvalue": 100,
+                    "maxvalue": 300,
+                    "defaultvalue": 150,
+                    "currentvalue": 150,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "RPM",
+                    "datatype": "int"
+                },
+                "CellDensity": {
+                    "minvalue": 1,
+                    "maxvalue": 10,
+                    "defaultvalue": 4,
+                    "currentvalue": 4,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "millioncells/mL",
+                    "datatype": "int"
+                },
+                "Viability": {
+                    "minvalue": 90,
+                    "maxvalue": 100,
+                    "defaultvalue": 95,
+                    "currentvalue": 95,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "%",
+                    "datatype": "int"
+                },
+                "NutrientConcentration": {
+                    "minvalue": 1,
+                    "maxvalue": 10,
+                    "defaultvalue": 2,
+                    "currentvalue": 2,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "g/L",
+                    "datatype": "int"
+                },
+                "MetaboliteConcentration": {
+                    "minvalue": 1,
+                    "maxvalue": 5,
+                    "defaultvalue": 2,
+                    "currentvalue": 2,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "g/L",
+                    "datatype": "int"
+                },
+                "FoamControl": {
+                    "minvalue": 0,
+                    "maxvalue": 1,
+                    "defaultvalue": 0,
+                    "currentvalue": 0,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "",
+                    "datatype": "int"
+                },
+                "Pressure": {
+                    "minvalue": 1,
+                    "maxvalue": 1,
+                    "defaultvalue": 1,
+                    "currentvalue": 1,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "bar",
+                    "datatype": "int"
+                },
+                "Conductivity": {
+                    "minvalue": 1,
+                    "maxvalue": 10,
+                    "defaultvalue": 3,
+                    "currentvalue": 3,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "mS/cm",
+                    "datatype": "int"
+                },
+                "Humidity": {
+                    "minvalue": 20,
+                    "maxvalue": 80,
+                    "defaultvalue": 40,
+                    "currentvalue": 40,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "%",
+                    "datatype": "int"
+                },
+                "Flowrate": {
+                    "minvalue": 0.5,
+                    "maxvalue": 5,
+                    "defaultvalue": 2.0,
+                    "currentvalue": 2.0,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "L/min",
+                    "datatype": "float"
+                }
+            },
+            "Bioreactor_3": {
+                "pH": {
+                    "minvalue": 6.4,
+                    "maxvalue": 7.2,
+                    "defaultvalue": 7.0,
+                    "currentvalue": 7.0,
+                    "IsSimulated": true,
+					"IsEditable" : true,
+                    "units": "",
+                    "datatype": "float"
+                },
+                "DO": {
+                    "minvalue": 30,
+                    "maxvalue": 60,
+                    "defaultvalue": 45,
+                    "currentvalue": 45,
+                    "IsSimulated": true,
+					"IsEditable" : true,
+                    "units": "%",
+                    "datatype": "int"
+                },
+                "Temperature": {
+                    "minvalue": 36.5,
+                    "maxvalue": 37.5,
+                    "defaultvalue": 37.0,
+                    "currentvalue": 37.0,
+                    "IsSimulated": true,
+					"IsEditable" : true,
+                    "units": "deg C",
+                    "datatype": "float"
+                },
+                "AgitationSpeed": {
+                    "minvalue": 100,
+                    "maxvalue": 300,
+                    "defaultvalue": 150,
+                    "currentvalue": 150,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "RPM",
+                    "datatype": "int"
+                },
+                "CellDensity": {
+                    "minvalue": 1,
+                    "maxvalue": 10,
+                    "defaultvalue": 4,
+                    "currentvalue": 4,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "millioncells/mL",
+                    "datatype": "int"
+                },
+                "Viability": {
+                    "minvalue": 90,
+                    "maxvalue": 100,
+                    "defaultvalue": 95,
+                    "currentvalue": 95,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "%",
+                    "datatype": "int"
+                },
+                "NutrientConcentration": {
+                    "minvalue": 1,
+                    "maxvalue": 10,
+                    "defaultvalue": 2,
+                    "currentvalue": 2,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "g/L",
+                    "datatype": "int"
+                },
+                "MetaboliteConcentration": {
+                    "minvalue": 1,
+                    "maxvalue": 5,
+                    "defaultvalue": 2,
+                    "currentvalue": 2,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "g/L",
+                    "datatype": "int"
+                },
+                "FoamControl": {
+                    "minvalue": 0,
+                    "maxvalue": 1,
+                    "defaultvalue": 0,
+                    "currentvalue": 0,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "",
+                    "datatype": "int"
+                },
+                "Pressure": {
+                    "minvalue": 1,
+                    "maxvalue": 1,
+                    "defaultvalue": 1,
+                    "currentvalue": 1,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "bar",
+                    "datatype": "int"
+                },
+                "Conductivity": {
+                    "minvalue": 1,
+                    "maxvalue": 10,
+                    "defaultvalue": 3,
+                    "currentvalue": 3,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "mS/cm",
+                    "datatype": "int"
+                },
+                "Humidity": {
+                    "minvalue": 20,
+                    "maxvalue": 80,
+                    "defaultvalue": 40,
+                    "currentvalue": 40,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "%",
+                    "datatype": "int"
+                },
+                "Flowrate": {
+                    "minvalue": 0.5,
+                    "maxvalue": 5,
+                    "defaultvalue": 2.0,
+                    "currentvalue": 2.0,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "L/min",
+                    "datatype": "float"
+                }
+            },
+            "Bioreactor_4": {
+                "pH": {
+                    "minvalue": 6.4,
+                    "maxvalue": 7.2,
+                    "defaultvalue": 7.0,
+                    "currentvalue": 7.0,
+                    "IsSimulated": true,
+					"IsEditable" : true,
+                    "units": "",
+                    "datatype": "float"
+                },
+                "DO": {
+                    "minvalue": 30,
+                    "maxvalue": 60,
+                    "defaultvalue": 45,
+                    "currentvalue": 45,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "%",
+                    "datatype": "int"
+                },
+                "Temperature": {
+                    "minvalue": 36.5,
+                    "maxvalue": 37.5,
+                    "defaultvalue": 37.0,
+                    "currentvalue": 37.0,
+                    "IsSimulated": true,
+					"IsEditable" : true,
+                    "units": "deg C",
+                    "datatype": "float"
+                },
+                "AgitationSpeed": {
+                    "minvalue": 100,
+                    "maxvalue": 300,
+                    "defaultvalue": 150,
+                    "currentvalue": 150,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "RPM",
+                    "datatype": "int"
+                },
+                "CellDensity": {
+                    "minvalue": 1,
+                    "maxvalue": 10,
+                    "defaultvalue": 4,
+                    "currentvalue": 4,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "millioncells/mL",
+                    "datatype": "int"
+                },
+                "Viability": {
+                    "minvalue": 90,
+                    "maxvalue": 100,
+                    "defaultvalue": 95,
+                    "currentvalue": 95,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "%",
+                    "datatype": "int"
+                },
+                "NutrientConcentration": {
+                    "minvalue": 1,
+                    "maxvalue": 10,
+                    "defaultvalue": 2,
+                    "currentvalue": 2,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "g/L",
+                    "datatype": "int"
+                },
+                "MetaboliteConcentration": {
+                    "minvalue": 1,
+                    "maxvalue": 5,
+                    "defaultvalue": 2,
+                    "currentvalue": 2,
+                    "IsSimulated": true,
+					"IsEditable" : true,
+                    "units": "g/L",
+                    "datatype": "int"
+                },
+                "FoamControl": {
+                    "minvalue": 0,
+                    "maxvalue": 1,
+                    "defaultvalue": 0,
+                    "currentvalue": 0,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "",
+                    "datatype": "int"
+                },
+                "Pressure": {
+                    "minvalue": 1,
+                    "maxvalue": 1,
+                    "defaultvalue": 1,
+                    "currentvalue": 1,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "bar",
+                    "datatype": "int"
+                },
+                "Conductivity": {
+                    "minvalue": 1,
+                    "maxvalue": 10,
+                    "defaultvalue": 3,
+                    "currentvalue": 3,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "mS/cm",
+                    "datatype": "int"
+                },
+                "Humidity": {
+                    "minvalue": 20,
+                    "maxvalue": 80,
+                    "defaultvalue": 40,
+                    "currentvalue": 40,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "%",
+                    "datatype": "int"
+                },
+                "Flowrate": {
+                    "minvalue": 0.5,
+                    "maxvalue": 5,
+                    "defaultvalue": 2.0,
+                    "currentvalue": 2.0,
+                    "IsSimulated": true,
+					"IsEditable" : false,
+                    "units": "L/min",
+                    "datatype": "float"
+                }
+            }
+        }
+    }
+}
